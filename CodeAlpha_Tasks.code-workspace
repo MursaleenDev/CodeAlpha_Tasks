@@ -2,6 +2,12 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../../Desktop/taskTwoCal"
+		},
+		{
+			"path": "../../../Desktop/taskThreePortfolio"
 		}
 	],
 	"settings": {}
