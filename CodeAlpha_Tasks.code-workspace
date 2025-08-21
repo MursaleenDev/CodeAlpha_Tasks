@@ -1,13 +1,16 @@
 {
 	"folders": [
 		{
+			"name": "CodeAlpha_Tasks",
 			"path": "."
 		},
 		{
-			"path": "../../../Desktop/taskTwoCal"
+			"name": "taskThreePortfolio",
+			"path": "../../../Desktop/taskThreePortfolio"
 		},
 		{
-			"path": "../../../Desktop/taskThreePortfolio"
+			"name": "taskTwoCal",
+			"path": "../../../Desktop/taskTwoCal"
 		}
 	],
 	"settings": {}

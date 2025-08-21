@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mursaleen | Web Developer</title>
+  <!-- Font famaily -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style2.css"/>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" href="./assets/icons/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+  <nav>
+    <button class="burger-menu" id="burger-menu">
+      <i class="fa-solid fa-bars"></i>
+      <h2 class="burger-menu">menu</h2>
+    </button>
+
+    <div class="nav-overlay" id="nav-overlay">
+      <button class="close-btn" id="close-btn" aria-label="Close menu">&times;</button>
+      <ul class="dropDown-menu">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#project">Project</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li><a class="nav-link" href="#about"> About Me</a></li>
+        <li><a class="nav-link" href="#certificate"> Certifications</a></li>
+      </ul>
+    </div>
+
+    <div class="my-icon">
+      <i class="fa-solid fa-user-tie"></i>
+    </div>
+
+    <div class="my-dealer" id="hireBtn">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <h2>HIRE ME</h2>
+    </div>
+  </nav>
+
+
+  <!-- Hero-Section -->
+  <section class="home" id="home">
+    <img src="images/imageHome.png" alt="Mursaleen" loading="lazy" class="hero-img" />
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a dedicated web developer with a detail-oriented approach,
+      focusing on creating clean and user-friendly
+      designs.Learning new technologies, developing innovative solutions,
+      and improving my work with every project are my top priorities.
+      My goal is to work with modern technologies and deliver them to every corner of the world,
+      making people’s lives better and easier.
+    </p>
+  </section>
+
+
+  <!-- skills-section -->
+  <section class="skills" id="skills">
+    <div class="skill-content">
+      <h2 class="skill-header">My Top Skills</h2>
+      <p class="skill-text">These are the skills I continuously work on to strengthen my future,
+        with the aim of mastering advanced technologies and achieving my goals</p>
+    </div>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img src="icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- project-section -->
+  <section class="project" id="project">
+
+    <div class="text-container">
+      <h2 class="project-title">Some of my Recent Projects</h2>
+      <p class="text-title">Transforming ideas into impactful projects</p>
+    </div>
+    <div class="projects-container">
+      <div class="project-container project-card card-one">
+        <img src="images/imagecalorie-counter.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+        <h3 class="project-title-sub">Calorie Counter</h3>
+        <p class="project-details">
+          An interactive Calorie Counter app that allows users to set a daily budget, add food items, and track calorie
+          intake for a healthier lifestyle
+        </p>
+        <a href="#projects" class="check-button">Check it Out
+          <i class="fa-solid fa-angle-right"></i>
+        </a>
+      </div>
+
+      <div class="project-container project-card">
+        <img src="images/imagegallery.png" alt="image-gallery" loading="lazy" class="project-pic" />
+        <h3 class="project-title-sub">Image Gallery</h3>
+        <p class="project-details">
+          A responsive, interactive image gallery inspired by Netflix. Built with HTML, CSS, and JavaScript, it allows
+          users to browse and filter images with a smooth, modern layout.”
+        </p>
+        <a href="#projects" class="check-button">Check it Out
+          <i class="fa-solid fa-angle-right"></i>
+        </a>
+      </div>
+
+      <div class="project-container project-card">
+        <img src="images/imagecalculator.png" alt="image-cal" loading="lazy" class="project-pic" />
+        <h3 class="project-title-sub">Calculator</h3>
+        <p class="project-details">
+          A simple and responsive calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic
+          operations with a clean and user-friendly interface.
+        </p>
+        <a href="#projects" class="check-button">Check it Out
+          <i class="fa-solid fa-angle-right"></i>
+        </a>
+      </div>
+
+      <div class="project-container project-card">
+        <img src="images/imagetodo-app.png" alt="image-cal" loading="lazy" class="project-pic" />
+        <h3 class="project-title-sub">Todo App</h3>
+        <p class="project-details">
+          This Todo App helps users efficiently organize and manage daily tasks. Tasks can be added, edited, or deleted,
+          and are saved in the browser for easy tracking
+        </p>
+        <a href="#projects" class="check-button">Check it Out
+          <i class="fa-solid fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Certification Section -->
+  <section class="certification" id="certificate">
+    <div class="certification-item">
+      <div class="text-block">
+        <h3>Certificate in Web Development</h3>
+        <p>Successfully completed a certified course in Web Development, covering modern front-end technologies
+          including HTML, CSS, and JavaScript. This certification demonstrates proficiency in building responsive
+          websites, enhancing user experience, and applying industry-standard coding practices.</p>
+      </div>
+      <img src="images/certificateWeb.png" alt="Certification">
+    </div>
+
+
+    <div class="certification-items">
+      <img src="images/certificatePython.png" alt="Certification">
+      <div class="text-block">
+        <h3>Certificate in Python Development</h3>
+        <p>Successfully completed a certified course in Python Programming, covering core concepts such as data types,
+          loops, functions, and object-oriented programming (OOP). This certification demonstrates proficiency in
+          writing clean, efficient code, solving real-world problems, and applying industry-standard coding practices in
+          Python development.</p>
+        </div>
+    </div>
+  </section>
+
+
+
+  <!-- contact-section  -->
+  <section class="contact" id="contact">
+    <h1>Get In Touch With Me</h1>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-control">
+            <label for="title">Title</label>
+            <select id="title" name="title">
+              <option value="" class="opt-select">Select Title</option>
+              <option value="Mr.">Mr.</option>
+              <option value="Mrs.">Mrs.</option>
+              <option value="Captain">Captain</option>
+              <option value="Chief">Chief</option>
+              <option value="Darin Sri">Darin Sri</option>
+              <option value="Datin">Datin</option>
+              <option value="Dato">Dato</option>
+              <option value="Dato Sri">Dato Sri</option>
+              <option value="Dr.">Dr.</option>
+              <option value="Engineer">Engineer</option>
+              <option value="Esq.">Esq.</option>
+              <option value="Frau">Frau</option>
+              <option value="H.E.">H.E.</option>
+              <option value="H. E. Dr.">H. E. Dr.</option>
+              <option value="H.E. Mr.">H.E. Mr.</option>
+              <option value="H.E. Mrs.">H.E. Mrs.</option>
+              <option value="H.E. Sheikh">H.E. Sheikh</option>
+              <option value="H.E. Sheikha">H.E. Sheikha</option>
+              <option value="H.H.">H.H.</option>
+              <option value="H.H. Prince">H.H. Prince</option>
+              <option value="H.H. Sheikh">H.H. Sheikh</option>
+              <option value="H.H. Sheikha">H.H. Sheikha</option>
+              <option value="H.M.">H.M.</option>
+              <option value="H.R.H.">H.R.H.</option>
+              <option value="H.R.H. Prince">H.R.H. Prince</option>
+              <option value="Herr">Herr</option>
+              <option value="Lord">Lord</option>
+              <option value="Messrs.">Messrs.</option>
+              <option value="Princess">Princess</option>
+              <option value="Puan Sri">Puan Sri</option>
+              <option value="Reverend">Reverend</option>
+              <option value="Sheikh">Sheikh</option>
+              <option value="Sheikha">Sheikha</option>
+              <option value="Sir.">Sir.</option>
+              <option value="Tan Sri">Tan Sri</option>
+              <option value="先生">先生</option>
+              <option value="女士">女士</option>
+              <option value="Mdm.">Mdm.</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="fname">First Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="First Name" class="input-field" required />
+          </div>
+          <div class="form-control">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" class="input-field" required />
+          </div>
+
+          <div class="form-control">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1" class="input-field" required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" class="input-field" required />
+          </div>
+      </div>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" class="check-circle" id="consent" />
+      <p>
+        Do you have project ideas? I can turn those ideas into exceptional and advanced solutions. Fill out the form
+        below and let’s create something new together.
+      </p>
+    </div>
+
+    <button class="rr-button button-text" type="submit">
+      <span>SEND REQUEST</span>
+    </button>
+
+    <p id="thankYou" style="display:none;">Thank you! Your message has been received.</p>
+
+    </form>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- hireMe-section -->
+  <section id="hire-section" class="hire-section">
+    <h2>HIRE ME</h2>
+    <p class="desc">
+      Looking for a skilled web developer to bring your ideas to life? <br>
+      I’m ready to collaborate and deliver modern,
+      efficient, and responsive solutions tailored to your needs.
+    </p>
+    <form id="hireForm">
+      <input type="text" id="city" name="city" placeholder="City" required>
+      <input type="text" id="country" name="country" placeholder="Country" required>
+
+      <div class="hire-btn">
+        <button type="submit" class="btn primary">
+          <span>SEARCH</span>
+        </button>
+        <button type="button" id="useLocation" class="btn secondary">
+          <span>USE MY LOCATION</span>
+          <i class="fa-solid fa-location-crosshairs"></i>
+        </button>
+      </div>
+      <p id="hireThankYou" style="display:none;">Thank you! Your message has been received.</p>
+    </form>
+  </section>
+
+
+  <footer>
+    <div class="logo">
+      <h2 class="log-one">MURSALEEN-CHAUHAN</h2>
+      <h3 class="log-two">PORTFOLIO</h3>
+    </div>
+    <hr>
+
+    <div class="footer-links">
+      <div>
+        <a href="#">ABOUT ME</a>
+        <a href="#">Skills</a>
+        <a href="#">PROJECTS</a>
+      </div>
+      <div>
+        <a href="#">RESUME</a>
+        <a href="#">CONTACT</a>
+        <a href="#">TESTIMONIALS</a>
+      </div>
+      <div>
+        <a href="#">BLOG</a>
+        <a href="#">PRIVACY POLICY</a>
+        <a href="#">TERMS & CONDITIONS</a>
+      </div>
+      <div>
+        <a href="#">HIRE ME</a>
+        <a href="#">FAQs</a>
+        <a href="#">LANGUAGE US</a>
+      </div>
+      <div>
+        <a href="#">SERVICES</a>
+        <a href="#">CERTIFICATIONS</a>
+        <a href="#">ACHIEVEMENT</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-brands fa-square-github"></i></a>
+      <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+    </div>
+    <div class="build-in">
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/koladechris" target="_blank">Mursaleen-Chauhan</a>
+      </p>
+
+      <i class="scroll-up" id="scroll-up">
+        <img src="icons/icons8-upward-arrow.gif" class="socicon up-arrow" alt="scroll-up">
+      </i>
+    </div>
+  </footer>
+
+  <script src="js/app2.js"></script>
+</body>
+
+</html>
